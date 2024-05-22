@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  position: relative;
+}
+.container img {
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+.text1 h1:hover {
+  cursor: pointer;
+}
+.text1 {
+  position: absolute;
+  color: white;
+  top: 50px;
+  left: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.text ul,
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  padding: 10px;
+  transition: 0.5s;
+}
+.text li a:hover {
+  color: black;
+}
+.text li button:hover {
+  color: white;
+  background-color: lightblue;
+  cursor: pointer;
+}
+.text button {
+  border-style: none;
+  outline: none;
+  padding: 10px;
+  background-color: white;
+  border-radius: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.text ul {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+.text ul {
+  display: flex;
+  padding: 20px;
+  float: right;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.center h1 {
+  position: absolute;
+  top: 150px;
+  left: 430px;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 300%;
+  font-style: normal;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+}
+.arrow {
+  position: absolute;
+  top: 280px;
+  left: 50%;
+}
+/* ------- middle1----------- */
+
+.container1 {
+  display: flex;
+}
+.container1 #pic1 {
+  width: 737px;
+  display: block;
+  float: right;
+}
+.container1 #pic2 {
+  width: 737px;
+  display: block;
+  float: left;
+}
+.container1 .content {
+  margin: 200px 100px 200px 80px;
+  padding: 20px;
+}
+.container1 .content h2 {
+  font-family: "Fraunces", serif;
+  font-size: 30px;
+  font-style: normal;
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+.container1 .content p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: grey;
+  padding-bottom: 20px;
+  line-height: 25px;
+}
+.content h3 {
+  font-weight: bold;
+  text-decoration: underline solid rgb(230, 198, 158) 5px;
+}
+.container .content h3:hover {
+  text-decoration-color: yellow;
+}
+
+/* ------- middle3----------- */
+.desc {
+  position: relative;
+}
+.descrip {
+  position: relative;
+}
+.image3 {
+  display: flex;
+}
+.image3 #imag {
+  display: block;
+  width: 737px;
+  float: left;
+}
+.image3 #image {
+  display: block;
+  width: 737px;
+  float: right;
+}
+.desc1 h3 {
+  position: absolute;
+  top: 450px;
+  left: 250px;
+  font-family: "Fraunces", serif;
+  font-size: 30px;
+  font-style: normal;
+  color: hsl(167, 40%, 24%);
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+.desc1 p {
+  position: absolute;
+  top: 500px;
+  left: 150px;
+  right: 150px;
+  padding-right: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: hsl(167, 40%, 24%);
+  padding-bottom: 20px;
+  line-height: 25px;
+}
+.desc2 h3 {
+  position: absolute;
+  top: 450px;
+  left: 250px;
+  font-family: "Fraunces", serif;
+  font-size: 30px;
+  font-style: normal;
+  color: hsl(212, 27%, 19%);
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.desc2 p {
+  position: absolute;
+  top: 500px;
+  left: 150px;
+  right: 150px;
+  padding-right: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: hsl(212, 27%, 19%);
+  padding-bottom: 20px;
+  line-height: 25px;
+}
+/* ----------testimonials ------------*/
+.details {
+  background-color: hsl(330, 100%, 98%);
+  padding: 10px 0px 90px 0px;
+}
+.testimonials h3 {
+  text-align: center;
+  padding-top: 100px;
+  letter-spacing: 5px;
+  color: gray;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.details .cards {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.card img {
+  width: 4em;
+  border-radius: 100px;
+}
+.cards .card .p1 {
+  padding: 30px;
+  color: hsl(212, 27%, 19%);
+}
+.cards .card h4 {
+  padding: 20px 0px 5px 0px;
+  color: rgb(30, 29, 29);
+}
+.cards .card .h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(142, 141, 141);
+  font-size: 18px;
+  font-weight: 400;
+}
+.pics {
+  display: flex;
+}
+.pics img {
+  display: block;
+  width: 368px;
+  height: 450px;
+  object-fit: fill;
+}
+/*-------------- footer --------------*/
+footer {
+  display: block;
+  background-color: hsl(167, 40%, 71%);
+  padding-bottom: 25px;
+}
+footer h5 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: bolder;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  color: hsl(166, 50%, 22%);
+}
+.info ul {
+  display: flex;
+  justify-content: center;
+}
+.info ul li {
+  color: hsl(168, 29%, 37%);
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding-bottom: 60px;
+}
+.info ul li:hover {
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+}
+.icons p {
+  padding: 20px;
+}
+.icons p :hover {
+  fill: white;
+  cursor: pointer;
+}
